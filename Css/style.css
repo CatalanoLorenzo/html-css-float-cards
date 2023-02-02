@@ -1,7 +1,8 @@
 /* set utility page */
 body{
     margin: 0;
-    font-family: Fredoka, sans-serif
+    font-family: Fredoka, sans-serif;
+    box-sizing: border-box;
 }
 .clearfix::after{
     content: "";
@@ -20,26 +21,59 @@ header{
 header h1{
     color: blueviolet;
 }
-/* main */
+/* main */ 
 
 .conteniercontat{
     background-color: black;
     float: left;
-    margin: 20px 20px;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 5%);
+    margin: 10px 10px;
+    height: 100%;
 }
-.conteniercontat img{
+.conteniercontat .imgprofile{
     float: left;
-    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 126px;
+}
+.male1{
+    background-image: url(../Img/male1.png);
+}
+.male2{
+    background-image: url(../Img/male2.png);
+}
+.male3{
+    background-image: url(../Img/male3.png);
+}
+.female1{
+    background-image: url(../Img/female1.png);
+}
+.female2{
+    background-image: url(../Img/female2.png);
+}
+.female3{
+    background-image: url(../Img/female3.png);
 }
 .conteniercontat .text{
     float: left;
-    line-height: 0.5rem;
-    padding: 0.7rem;
+    padding: 1% 6%;
+    width: 58%;
 }
 .conteniercontat p{
     color: white;
 }
-.conteniercontat h2{
-    color: white;
+.conteniercontat a,p{
+}
+
+.name{
+    size: 20px;
+}
+.job{
+    size: 18px;
+
+}
+#email{
+    color: aqua;
+    size: 11px;
 }
