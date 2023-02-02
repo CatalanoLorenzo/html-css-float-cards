@@ -1,8 +1,9 @@
 /* set utility page */
 body{
     margin: 0;
+    font-family: Fredoka, sans-serif
 }
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -12,10 +13,32 @@ body{
 header{
     text-align: center;
 }
-.conteninerheader{
+.conteninerheader,.userinfo{
     width: 80%;
     margin: auto;
 }
 header h1{
     color: blueviolet;
+}
+/* main */
+.conteniercontat{
+    background-color: black;
+    float: left;
+    margin: 20px 20px;
+    width: calc(100% / 3);
+}
+.conteniercontat img{
+    float: left;
+    height: 100px;
+}
+.conteniercontat .text{
+    float: left;
+    line-height: 0.5rem;
+    padding: 0.7rem;
+}
+.conteniercontat p{
+    color: white;
+}
+.conteniercontat h2{
+    color: white;
 }
