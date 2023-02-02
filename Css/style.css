@@ -14,7 +14,7 @@ body{
 header{
     text-align: center;
 }
-.conteninerheader,.userinfo{
+.conteniner-header,.userinfo{
     width: 80%;
     margin: auto;
 }
@@ -23,26 +23,27 @@ header h1{
 }
 /* main */ 
 
-.conteniercontat{
+.contenier-contat{
     background-color: black;
     float: left;
     width: calc((100% / 3) - 5%);
     margin: 10px 10px;
     height: 100%;
 }
-.conteniercontat .imgprofile{
+.contenier-contat .img-profile{
     float: left;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 30%;
-    height: 126px;
 }
-.male1{
+.img-profile img{
+    height: 130px;
+}
+/*  .male1{
     background-image: url(../Img/male1.png);
 }
 .male2{
     background-image: url(../Img/male2.png);
-}
+} 
 .male3{
     background-image: url(../Img/male3.png);
 }
@@ -54,24 +55,19 @@ header h1{
 }
 .female3{
     background-image: url(../Img/female3.png);
-}
-.conteniercontat .text{
+} */ 
+.contenier-contat .text{
     float: left;
     padding: 1% 6%;
-    width: 58%;
 }
-.conteniercontat p{
+.contenier-contat p{
     color: white;
 }
-.conteniercontat a,p{
-}
-
 .name{
     size: 20px;
 }
 .job{
     size: 18px;
-
 }
 #email{
     color: aqua;
